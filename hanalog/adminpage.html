@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Page ｜個人サイト「hanalog」｜練習用 </title>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Satisfy" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="adminpage">
+  
+  <script type="text/javascript" src="script/script.js" charset="utf-8"></script>
+  
+  <!-- header 始まり -->
+  <header>
+    <button type="submit" class="login-btn" onclick="location.href='login.html'">ログイン</button>
+    <div class="logo">
+      <a onclick="memo()">hana * log</a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="article.html">Article</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="studies.html">Studies</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header 終わり -->
+  
+  <!-- wrap 始まり -->
+  <div id="wrap" class="clearfix">
+    <div class="content">
+      <div class="main">
+        <h1>Admin Page</h1>
+        <p>ここは管理者用ページです。</p>
+        <section id="postform">
+          <h2 class="filepost">Image Post</h2>
+          <div class="form">
+            <form>
+              <dl>
+                <dd><input type="file" name="imagefile" id="file-sample"></dd>
+                <dd><button type="button" class="btn" onclick="imagepost()">Post</button></dd>
+                <dd><img id="file-preview"></dd>
+              </dl>
+          </form>
+          </div>
+        </section>
+          
+          
+
+        
+      </div>
+      <aside class="sidebar">
+        <section>
+          <h2>Summary</h2>
+          <ul>
+            <li><a href="s_html.html">H T M L</a></li>
+            <li><a href="s_css.html">C S S</a></li>
+            <li><a href="s_javascript.html">JavaScript</a></li>
+          </ul>
+        </section>
+      </aside>
+    </div>
+  </div>
+  <!-- wrap  終わり-->
+  
+  <!-- footer 始まり -->
+  <footer>
+    <small>(C)2019 Hanada-studio.</small>
+  </footer>
+  <!-- footer 終わり  -->
+</body>
+</html>

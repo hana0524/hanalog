@@ -1,0 +1,662 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #cccccc;
+  color: #333333;
+  font-size: 15px;
+  line-height: 2;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin: 0 100px 100px 50px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 60px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #ffffff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #ffffff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  background-color: #ffffff;
+  margin-top: 220px;
+  padding: 35px 0;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+  background-color: #767671;
+}
+
+footer small{
+  font-size: 12px;
+}
+
+/*indexページの設定*/
+#index h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Bitter',serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#index .content {
+  margin-top: 150px;
+}
+
+#index p{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#index .btn a {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter',serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border:3px solid #fa8072;
+}
+
+#index .btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #fa8072;
+}
+
+#index footer {
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#index {
+  background-image: url(../images/top01.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*thanks*/
+#thanks h1 {
+  font-size: 100px;
+  line-height: 1;
+  color: #ffffff;
+  font-family: 'Bitter',serif;
+  margin-bottom: 50px;
+  border: none;
+}
+
+#thanks .content {
+  margin-top: 150px;
+}
+
+#thanks p{
+  font-size: 16px;
+  color: #ffffff;
+}
+
+#thanks .btn a {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Bitter',serif;
+  width: 185px;
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border:3px solid #fa8072;
+}
+
+#thanks .btn a:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #fa8072;
+}
+
+#thanks footer {
+  width: 960px;
+  margin: 150px auto 0 auto;
+  text-align: left;
+  background-color: transparent;
+}
+
+#thanks {
+  background-image: url(../images/thanks.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#thanks #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#thanks h4 {
+  color: white;
+}
+/*thanks end*/
+
+
+#aboutme {
+  background-image: url(../images/aboutme-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main-center {
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Bitter',serif;
+  font-size: 36px;
+  border-bottom: 1px solid #cccccc;
+}
+
+h2 {
+  font-family: 'Bitter',serif;
+  font-size: 24px;
+}
+
+.icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #cd5c5c;
+}
+
+#aboutme .profile-txt {
+  width: 540px;
+  float: left;
+}
+
+#aboutme .profile-txt span{
+  font-weight: bold;
+}
+
+#aboutme .profile-image {
+  float: right;
+  width: 350px;
+  height: 250px;
+  margin-top: 65px;
+}
+
+#aboutme .pandaicon{
+  width: 25px;
+  height: 25px;
+  margin: 0 0 5px 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section {
+  margin-bottom: 35px;
+}
+
+#aboutme .career th {
+  width: 240px;
+  background-color: #f0f0f0;
+  padding: 12px 0;
+  border: 1px solid #cccccc;
+}
+
+#aboutme .career td {
+  width: 660px;
+  padding: 12px 0 12px 40px;
+  border: 1px solid #cccccc;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+#index #wrap {
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#article {
+  background-image: url(../images/article-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#article #wrap .main img{
+  width: 700px;
+  height: 200px;
+  object-fit: cover; /*この一行があると「切り取り」になってくれる*/
+}
+
+.main {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar {
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter',serif;
+}
+
+a img:hover {
+  opacity: 0.8;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a {
+  color: #333333;
+}
+
+/*photograph設定*/
+#photograph {
+  background-image: url(../images/photograph-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+#photograph .photograph-list li {
+  float: left;
+  list-style: none;
+  margin: 0 20px 15px 0;
+}
+
+#photograph img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover; /*この一行があると「切り取り」になってくれる*/
+}
+
+#photograph .photograph-list li:nth-child(2n) {
+  margin-right: 0;
+}
+
+/*video設定*/
+#video {
+  background-image: url(../images/video-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#video #movie li{
+  width: 310px;
+  float: left;
+  list-style: none;
+  margin: 0 35px 20px 0;
+}
+
+#video #short-film li{
+  width: 310px;
+  float: left;
+  list-style: none;
+  margin: 0 35px 20px 0;
+}
+
+/*contactページの設定*/
+#contact {
+  background-image: url(../images/contact-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#contact .access table {
+  float: left;
+}
+
+#contact .access th,
+#contact .access td {
+  text-align: left;
+  vertical-align: top;
+  line-height: 2.5;
+}
+
+#contact .access td {
+  padding-left: 30px;
+}
+
+#contact .access iframe {
+  width: 460px;
+  height: 350px;
+  float: right;
+}
+
+#contact .form {
+  background-color: #fff9ff;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+#contact .form dl dt {
+  width: 165px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#contact .form dl dd {
+  padding: 10px 0;
+}
+
+#contact .form .name {
+  width: 240px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#contact .form .email {
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#contact .form .tel {
+  width: 240px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#contact .form .type {
+  width: 180px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#contact .form .message {
+  width: 660px;
+  height: 150px;
+  border-radius: 10px;
+}
+
+#contact .form .btn {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bitter',serif;
+  width: 110px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border:3px solid #fa8072;
+  margin-left: 165px;
+}
+
+#contact .form button:hover {
+  background-color: #ffffff;
+  color: #fa8072;
+  cursor: pointer;
+}
+
+#contact .form .required:after{
+  content:"*";
+  color: #ff0000;
+}
+
+#contact .form .attention {
+  margin: 20px 0 0 165px;
+}
+
+/*ログインボタンの設定*/
+.login-btn {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 13px;
+  font-family: 'Satisfy', cursive;
+  width: 100px;
+  height: 25px;
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  margin: 10px 50px 0 850px;
+  border-radius: 8px;
+  border:2px solid #fa8072;
+}
+
+.login-btn:hover {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #fa8072;
+  cursor: pointer;
+}
+
+.logo a {
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.logo a:hover{
+  text-decoration: none;
+  color: #cd5c5c;
+  cursor: pointer;
+}
+
+#studies {
+  background-image: url(../images/summary-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#studies .hanaicon {
+  width: 15px;
+  height: 15px;
+  margin: 0 2px 9px 0;
+}
+
+#studies .impression .icon:before {
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #db7093;
+}
+
+#login .form {
+  background-color: #fff9ff;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+
+#login .form dl dt {
+  width: 155px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}
+
+#login .form .id {
+  width: 240px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#login .form .password {
+  width: 240px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+#login .form .btn {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bitter',serif;
+  width: 110px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border:3px solid #fa8072;
+  margin-left: 165px;
+}
+
+#login .form button:hover {
+  background-color: #ffffff;
+  color: #fa8072;
+  cursor: pointer;
+}
+/*
+#login .form .required:after{
+  content:"*";
+  color: #ff0000;
+}
+
+#login .form .attention {
+  margin: 20px 0 0 165px;
+}
+*/
+
+#login {
+  background-image: url(../images/login-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#one-back {
+  background-color: aquamarine
+}
+
+#adminpage {
+  background-image: url(../images/adminpage-top.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#adminpage .form .btn {
+  background-color: #fa8072;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bitter',serif;
+  width: 110px;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border:3px solid #fa8072;
+}
+
+#adminpage .form button:hover {
+  background-color: #ffffff;
+  color: #fa8072;
+  cursor: pointer;
+}
+
+#adminpage .form {
+  background-color: #E0F8F1;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+
+#adminpage .form dl dt {
+  width: 100px;
+  padding: 10px 0;
+  float: left;
+  clear: both;
+}

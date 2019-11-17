@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login ｜個人サイト「hanalog」｜練習用 </title>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Satisfy" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+<body id="login">
+  
+  <script type="text/javascript" src="script/script.js" charset="utf-8"></script>
+  
+  <!-- header 始まり -->
+  <header>
+    <button type="submit" class="login-btn" onclick="location.href='login.html'">ログイン</button>
+    <div class="logo">
+      <a onclick=memo()>hana * log</a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="article.html">Article</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="studies.html">Studies</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header 終わり -->
+  
+  <!-- wrap 始まり -->
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <h1>Adminstrator Login</h1>
+        <section>
+          <h2 class="icon">Login form</h2>
+          <div class="form">
+            <form>
+              <dl>
+                <dt><span class="required">Admin ID</span></dt>
+                <dd><input type="text" name="id" class="id" id="loginid" required value="hana"></dd>
+                <dt><span class="required">Password</span></dt>
+                <dd><input type="password" name="password" class="password" id="loginpass" required value="hana"></dd>
+              </dl>
+              <button type="button" class="btn" onclick="login()">Login</button>
+            </form>
+            <div class="attention">
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+  <!-- wrap  終わり-->
+  
+  <!-- footer 始まり -->
+  <footer>
+    <small>(C)2019 Hanada-studio.</small>
+  </footer>
+  <!-- footer 終わり  -->
+</body>
+</html>

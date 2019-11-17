@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact ｜個人サイト「hanalog」｜練習用 </title>
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Satisfy" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body id="contact">
+  
+  <script type="text/javascript" src="script/script.js" charset="utf-8"></script>
+  
+  <!-- header 始まり -->
+  <header>
+    <button type="submit" class="login-btn" onclick="location.href='login.html'">ログイン</button>
+    <div class="logo">
+      <a onclick=memo()>hana * log</a>
+    </div>
+    <nav>
+      <ul class="global-nav">
+        <li><a href="article.html">Article</a></li>
+        <li><a href="aboutme.html">About me</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="studies.html">Studies</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- header 終わり -->
+  
+  <!-- wrap 始まり -->
+  <div id="wrap">
+    <div class="content">
+      <div class="main-center">
+        <h1>Contact</h1>
+        <p>Sanrio Purolandへのアクセス方法、「hana*log」へのお問い合わせフォームのページです。お気軽にお問い合わせください。</p>
+        <section class="access clearfix">
+          <h2 class="icon">Access</h2>
+          <table>
+            <tr>
+              <th>所在地住所</th>
+              <td>〒206-8588<br>東京都多摩市落合１丁目３１</td>
+            </tr>
+            <tr>
+              <th>電話番号</th>
+              <td>042-339-1111</td>
+            </tr>
+            <tr>
+              <th>電車でのアクセス</th>
+              <td>各路線  多摩センター駅より徒歩5分</td>
+            </tr>
+            <tr>
+              <th>お車でのアクセス</th>
+              <td>国立府中I.Cから約8キロ<br>横浜町田I.Cから約19キロ<br>相模原愛川I.Cから約18キロ</td>
+            </tr>
+            <tr id="site">
+              <th>サイトアクセス</th>
+              <td><a href="https://www.sanrio.co.jp/">サンリオピューロランドHPへ</a></td>
+            </tr>
+          </table>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12972.50143196381!2d139.429159!3d35.624636!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0aaab4654086855!2z44K144Oz44Oq44Kq44OU44Ol44O844Ot44Op44Oz44OJ!5e0!3m2!1sja!2sjp!4v1548728792832" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+        <section>
+          <h2 class="icon">Contact form</h2>
+          <div class="form">
+            <form action="mailto:hanalog8787@gmail.com" method="post" enctype="text/plain">
+              <dl>
+                <dt><span class="required">お名前</span></dt>
+                <dd><input type="text" name="name" class="name" required></dd>
+                <dt><span class="required">メールアドレス</span></dt>
+                <dd><input type="email" name="email" class="email" required></dd>
+                <dt>お電話番号</dt>
+                <dd><input type="tel" name="tel" class="tel"></dd>
+                <dt>お問い合わせ種別</dt>
+                <dd>
+                  <select name="type" class="type">
+                    <option value="撮影のご依頼">ご質問</option>
+                    <option value="講演・各種メディア出演のご依頼">ご意見</option>
+                    <option value="その他お問い合わせ">その他お問い合わせ</option>
+                  </select>
+                </dd>
+                <dt>ご希望のご連絡方法</dt>
+                <dd>
+                  <input type="radio" name="contact" value="Eメール">Eメール
+                  <input type="radio" name="contact" value="お電話">お電話
+                </dd>
+                <dt>メッセージ</dt>
+                <dd><textarea name="message" class="message"></textarea></dd>
+              </dl>
+              <button type="submit" class="btn" onclick="thankspage()">送信</button>
+            </form>
+            <div class="attention">
+              <p>※「<span class="required"></span>」の付いている項目は必須項目です。<br>※メッセージ送信後、1週間以内に担当者よりご連絡致します。</p>
+            </div>
+          </div>
+        </section>
+        <a href="yahoo.jp">hello</a>
+      </div>
+    </div>
+  </div>
+  <!-- wrap  終わり-->
+  
+  <!-- footer 始まり -->
+  <footer>
+    <small>(C)2019 Hanada-studio.</small>
+  </footer>
+  <!-- footer 終わり  -->
+</body>
+</html>
